@@ -1,0 +1,22 @@
+.parent button{
+    border: 1px solid #5814d6;
+    border-radius: 10px;
+
+}
+
+/* .parent button:hover{
+    border: 1px solid #d1b8ff;
+    background-color: #e9ddff;
+} */
+
+.parent button:after {
+    background-color: bisque;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .parent button:active:after {
+    background-color: black;
+    opacity: 1;
+    transition: 0s
+  }
